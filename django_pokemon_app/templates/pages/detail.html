@@ -1,0 +1,32 @@
+{% extends "pages/layout.html" %}
+
+{% block content %}
+<h1>{{ poke_party.0.name }}</h1>
+<img src="{{ poke_party.0.img }}" class="img-fluid rounded-circle" alt="poke_0" style=" height: 210px; width: 200px;"/>
+<h1>Type: {{ poke_party.0.type_name }}</h1><br>
+<div class="container pt-5">
+    <div class="row pt-5">
+        <div class="col-md text-white">
+            <h1>{{ poke_party.1.name }}</h1>
+            <img src="{{ poke_party.1.img }}" class="img-fluid rounded-circle" alt="poke_0" style=" height: 210px; width: 200px;"/>
+        </div>
+        <div class="col-md">
+            <h1>{{ poke_party.2.name }}</h1>
+            <img src="{{ poke_party.2.img }}" class="img-fluid rounded-circle" alt="poke_0" style=" height: 210px; width: 200px;"/>
+        </div>
+        <div class="col-md">
+            <h1>{{ poke_party.3.name }}</h1>
+            <img src="{{ poke_party.3.img }}" class="img-fluid rounded-circle" alt="poke_0" style=" height: 210px; width: 200px;"/>
+        </div>
+        <div class="col-md">
+            <h1>{{ poke_party.4.name }}</h1>
+            <img src="{{ poke_party.4.img }}" class="img-fluid rounded-circle" alt="poke_0" style=" height: 210px; width: 200px;"/>
+        </div>
+        <div class="col-md">
+            <h1>{{ poke_party.5.name }}</h1>
+            <img src="{{ poke_party.5.img }}" class="img-fluid rounded-circle" alt="poke_0" style=" height: 210px; width: 200px;"/>
+        </div>
+    </div>
+</div>
+{% endblock %}    
+
